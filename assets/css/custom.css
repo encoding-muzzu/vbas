@@ -1,0 +1,24 @@
+.cus-div {
+    background-color: #8080802e;
+    border-radius:50px;
+    text-align:center;
+    font-weight:bold;
+}
+.cus-div:hover{
+    background-color:#80808059;
+    cursor:pointer;
+    transition: all
+}
+
+
+#video_box{
+    float:left;
+}
+#video_overlays {
+position:absolute;
+float:left;
+    width:640px;
+    min-height:370px;
+    background-color:transparent;
+    z-index:300000;
+}
